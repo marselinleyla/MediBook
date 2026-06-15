@@ -41,7 +41,7 @@ const Section = () => {
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="lg:grid lg:grid-cols-2 lg:gap-12 items-center">
-            <div className="mb-12 lg:mb-0">
+            <div className="mb-12 lg:mb-0 lg:self-start -mt-8 lg:-mt-16">
               <div className="inline-flex items-center space-x-2 px-4 py-2 rounded-full bg-brand-50 border border-brand-100 text-brand-600 text-sm font-bold mb-6 transition-transform hover:scale-105 cursor-default">
                 <span className="flex h-2 w-2 rounded-full bg-brand-600 animate-pulse"></span>
                 <span>{t("home.trusted_platform", "The most trusted medical platform")}</span>
@@ -70,7 +70,7 @@ const Section = () => {
               </div>
             </div>
 
-            <div className="relative">
+            <div className="relative -mt-8 lg:-mt-16">
               <div className="relative z-20 rounded-3xl overflow-hidden shadow-2xl transition-transform duration-500 hover:scale-[1.02]">
                 <img
                   src="./img/doctor-2.png"
