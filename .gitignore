@@ -1,0 +1,18 @@
+# Environment
+BackEnd/.env
+
+# Laravel
+BackEnd/vendor/
+BackEnd/node_modules/
+BackEnd/storage/logs/*
+BackEnd/bootstrap/cache/*.php
+
+# React
+FrontEnd/node_modules/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
