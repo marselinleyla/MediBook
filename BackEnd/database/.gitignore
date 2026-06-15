@@ -1,0 +1,2 @@
+# Ignore SQLite database files (used as an alternative to MySQL for local dev)
+*.sqlite*
